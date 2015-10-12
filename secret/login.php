@@ -6,7 +6,7 @@ require_once('config.php');
 require_once('functions.php');
 
 if (!empty($_SESSION['me'])) {
-	header('Location:'.SITE_URL);
+	header('Location:'.SITE_URL.'admin_page/index.php');
 }
 
 function getUser($name, $password, $dbh) {
@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] != "POST") {
 
 	if (empty($error)) {
 		$_SESSION['me'] = $me;
-			header('Location: '.SITE_URL.'/admin/index.php');
+			header('Location: '.SITE_URL.'admin_page/index.php');
 		exit;
 	}
 

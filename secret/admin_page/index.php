@@ -217,7 +217,7 @@
                           <span>ADD BOOK</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="">Add book</a></li>
+                          <li><a  href="../add_book.php">Add book</a></li>
                       </ul>
                   </li>
 
