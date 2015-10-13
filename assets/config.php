@@ -11,8 +11,8 @@ define('DB_PASSWORD', 'root');
 
 // 相対バス、絶対パスどちらで指定しているかを認識していくこと。
 // [ アドバンス ]階層が変わることを考える（拡張性）と相対パスで指定
-define('SITE_URL', 'http://192.168.33.10/nexseed_library/secret/');
-define('PASSEWORD_KEY', 'root');
+define('SITE_URL', 'http://192.168.33.10/nexseed_library/');
+// define('PASSEWORD_KEY', 'root');
 
 error_reporting(E_ALL & ~E_NOTICE);
 

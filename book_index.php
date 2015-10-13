@@ -2,13 +2,13 @@
 
 session_start();
 
-require_once('config.php');
-require_once('functions.php');
+require_once('assets/config.php');
+require_once('assets/functions.php');
 
 
 // ログインしてなかったら、ログインページにとばす
 if (empty($_SESSION['me'])) {
-	header('Location:' .SITE_URL.'login.php');
+	header('Location:' .SITE_URL.'index.php');
 }
 
 // ログイン情報を変数meに突っ込む
